@@ -12,7 +12,7 @@ trans_totensor = transforms.ToTensor()
 img_tensor = trans_totensor(img)
 writer.add_image("ToTensor",img_tensor)
 
-
+#hahaha
 # Normalize
 print(img_tensor[0][0][0])
 trans_norm = transforms.Normalize([0.6,0.3,0.5],[0.3,0.2,0.1])
